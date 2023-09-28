@@ -1,5 +1,5 @@
 
 RandomForestClassifier:
   n_estimators: 300
-  max_depth: 13
-  min_samples_split: 6
+  max_depth: 15
+  min_samples_split: 7
