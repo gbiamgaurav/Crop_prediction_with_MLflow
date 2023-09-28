@@ -1,5 +1,9 @@
 # Crop prediction with MLflow
 
+[video Demo](https://github.com/gbiamgaurav/Crop_prediction_with_MLflow/assets/81230208/10323ad1-243a-4e06-88c3-04795a743a77)
+
+[checkout the app here:](https://croppredictionwithmlflow-rjfhca9ewxxxzgkgwqcpsc.streamlit.app/)
+
 ## Context:
 Precision agriculture is in trend nowadays. It helps the farmers to get informed decision about the farming strategy. Here, we present you a dataset which would allow the users to build a predictive model to recommend the most suitable crops to grow in a particular farm based on various parameters.**
 
