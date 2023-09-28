@@ -1,1 +1,14 @@
-key: value
+
+COLUMNS:
+  N: int64  
+  P: int64  
+  K: int64  
+  temperature: float64
+  humidity: float64
+  ph: float64
+  rainfall: float64
+  label: object
+
+
+TARGET_COLUMN:
+  name: label
