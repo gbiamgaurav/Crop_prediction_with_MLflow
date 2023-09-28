@@ -50,12 +50,12 @@ def main():
     st.markdown("Please Enter the inputs to check which crop or fruit to Grow")
 
     # Set default values for sliders or use None for initial values
-    N = st.slider('N', 0, 140, step=1, value=None)
-    P = st.slider('P', 5, 145, step=1, value=None)
-    K = st.slider('K', 5, 205, step=1, value=None)
-    temperature = st.slider('Temperature in degrees', 8.1, 44.9, step=0.01, value=None)
-    humidity = st.slider('Humidity in farenhite', 14.1, 99.9, step=0.01, value=None)
-    ph = st.slider('PH level', 3.5, 9.9, step=0.01, value=None)
+    N = st.slider('Nitrogen content', 0, 140, step=1, value=None)
+    P = st.slider('Phosphorous content', 5, 145, step=1, value=None)
+    K = st.slider('Potassium content', 5, 205, step=1, value=None)
+    temperature = st.slider('Temperature in degree Celsius', 8.1, 44.9, step=0.01, value=None)
+    humidity = st.slider('Relative humidity in %', 14.1, 99.9, step=0.01, value=None)
+    ph = st.slider('PH value of the soil', 3.5, 9.9, step=0.01, value=None)
     rainfall = st.slider('Rainfall in mm', 20.2, 298.23, step=0.01, value=None)
 
     # Define the form
