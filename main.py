@@ -4,6 +4,7 @@ from cropPrediction.pipeline.stage_01_data_ingestion import DataIngestionTrainin
 from cropPrediction.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 from cropPrediction.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
 from cropPrediction.pipeline.stage_04_model_trainer import ModelTrainingPipeline
+from cropPrediction.pipeline.stage_05_model_evaluation import ModelEvaluationPipeline
 from pathlib import Path
 
 
@@ -50,3 +51,13 @@ except Exception as e:
         logger.exception(e)
         raise e
 
+
+STAGE_NAME = "Model Evaluation stage"
+try:
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
+   model_evaluation = ModelEvaluationPipeline()
+   model_evaluation.main()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<")
+except Exception as e:
+        logger.exception(e)
+        raise e
