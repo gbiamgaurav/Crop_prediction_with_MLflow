@@ -1,4 +1,3 @@
-
 from cropPrediction import logger
 from cropPrediction.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from cropPrediction.pipeline.stage_02_data_validation import DataValidationTrainingPipeline

@@ -101,7 +101,8 @@ class ConfigurationManager:
             model_path = config.model_path,
             all_params=params,
             metric_file_name = config.metric_file_name,
-            target_column = schema.name
+            target_column = schema.name,
+            mlflow_uri="https://dagshub.com/gbiamgaurav/Crop_prediction.mlflow",
            
         )
 
