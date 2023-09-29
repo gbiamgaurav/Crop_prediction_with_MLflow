@@ -5,7 +5,7 @@
 [checkout the app here:](https://croppredictionwithmlflow-rjfhca9ewxxxzgkgwqcpsc.streamlit.app/)
 
 ## Context:
-Precision agriculture is in trend nowadays. It helps the farmers to get informed decision about the farming strategy. Here, we present you a dataset which would allow the users to build a predictive model to recommend the most suitable crops to grow in a particular farm based on various parameters.**
+Precision agriculture is in trend nowadays. It helps the farmers to get informed decision about the farming strategy. Here, we present you a solution which would recommend the most suitable crops to grow in a particular farm based on various parameters.
 
 ## Source:
 This dataset was build by augmenting datasets of rainfall, climate and fertilizer data available for India. Gathered over the period by ICFA, India.
